@@ -17,7 +17,7 @@ function interestCalculator(){
     else if(tenor <= 6 && tenor > 3){
         rate = 0.12
     }
-    else if( tenor === 3 && tenor >= 1){
+    else if( tenor <= 3 && tenor >= 1){
         rate = 0.09
     }
 
